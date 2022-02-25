@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+body{
+    background: rgb(242, 242, 242) url(../img/webb.png);
+    color: rgb(242, 242, 242);
+}
+
+img{
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+h1{
+    margin-top: 30px;
+    margin-left: 45px;
+    font-weight: 600;
+    color: inherit;
+}
+
+p{
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-right: 60px;
+    color: inherit;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: auto;
+    width: 65%;
+    margin: 100px 100px 100px 250px; 
+}
+
+.card1{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgb(227, 136, 38);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.card2{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: rgb(0, 105, 112);
+}
+
+.card3{
+    grid-column: 3;
+    grid-row: 1;
+    background-color: rgb(0, 66, 65);
+    border-radius: 0px 10px 10px 0px;
+}
+
+button{
+    border-radius: 25px;
+    margin: 70px 0 30px 40px;
+    width: 50%;
+    background-color: rgb(242, 242, 242);
+    padding: 15px 10px;
+    font-size: 1rem;
+    border: solid 2px rgb(242, 242, 242);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.b1{
+    margin: 75px 0 50px 40px;
+    color: rgb(227, 136, 38);
+}
+
+.b2{
+    margin: 50px 0 50px 40px;
+    color: rgb(0, 105, 112);
+}
+
+.b3{
+    margin: 75px 0 50px 40px;
+    color: rgb(0, 66, 65);
+}
+
+.b1:hover{
+    color: rgb(242, 242, 242);
+    background-color: rgb(227, 136, 38);
+}
+
+.b2:hover{
+    color: rgb(242, 242, 242);
+    background-color: rgb(0, 105, 112);
+}
+
+.b3:hover{
+    color: rgb(242, 242, 242);
+    background-color: rgb(0, 66, 65);
+}
